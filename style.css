@@ -191,3 +191,17 @@ width:600px;
     max-width: 30%;
     text-align: center;
 }
+
+/* big feature section */
+
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-feature-container{
+    gap:30px;
+}
+
+.feature-img img{
+    width: 100%;
+}
