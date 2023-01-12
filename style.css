@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    color:var(--primary-text-color);
+
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Utility classes start */
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.top-banner{
+    background-color: #4fb3da;
+    background-image:url(./Assets/asset\ 32.png) ;
+    background-size: 300px;
+}
+
+.banner-text{
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+
+}
+
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: #fff !important;
+    padding: 10px 20px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.3s ease-out;
+}
+
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button{
+  border: 0.5px solid var(--secondary-text-color);  
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  padding: 10px 20px;
+  transition: 0.3s ease-out;
+}
+
+.secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+
+/* utility classes ends */
+
+/* navbar */
+
+.main-nav{
+    margin-top: 15px;
+
+}
+
+.nav-links{
+    flex-basis: 730px;
+}
+
+.nav-links ul{
+    gap:40px
+}
+
+.company-logo img{
+    width: 200px;;
+}
+
+.hover-link{
+    color:var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+
+.hover-link:hover{
+    color:var(--accent-color);
+}
